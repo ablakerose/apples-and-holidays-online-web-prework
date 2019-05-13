@@ -32,7 +32,7 @@ def add_supply_to_winter_holidays(holiday_hash, item)
 end
 
 
-add_supply_to_winter_holidays(holiday_supplies, "Baloons")
+add_supply_to_winter_holidays(holiday_supplies, "Balloons")
 
 # This will not word because the sub-hashes are not somple array-string values
 #def add_supply_to_winter_holidays(holiday_hash, supply)
@@ -52,7 +52,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
   holiday_hash[:spring][:memorial_day].push(supply)
 end
 
-add_supply_to_memorial_day(holiday_supplies, "baloons")
+add_supply_to_memorial_day(holiday_supplies, "balloons")
 
 
 #def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
